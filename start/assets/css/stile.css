@@ -204,17 +204,17 @@ footer a {
 
 /*BOTTON*/
 
-.toTop {
+.sopra {
     position: fixed;
     bottom: 10px;
     right: -7px;
 }
 .social {
     position: fixed;
-    bottom: 20vh;
+    bottom: 50px;
     right: -7px;
 }
-.toTop a, .social a {
+.sopra a, .social a , .calendario a{
     color: #c77ea2;
     font-size: 4rem;
     display: block;
@@ -222,6 +222,13 @@ footer a {
     .social a {
         color: rgb(45, 101, 185);
     }
-.toTop .far, .social .far {
+.sopra .far, .social .far {
     background: white;
+}
+
+.calendario{
+    position: fixed;
+    bottom: 70px;
+    right: -7px;
+
 }
